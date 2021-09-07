@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3307/atm_base_test?characterEncoding=UTF-8
+    username: atm_user
+    password: 123asDSDj1sdj
+    driver-class-name: org.mariadb.jdbc.Driver
+  flyway:
+    url: jdbc:mariadb://127.0.0.1:3307/atm_base_test?characterEncoding=UTF-8
+    user: atm_user
+    password: 123asDSDj1sdj
+    baseline-on-migrate: true
+
+server:
+  port: 10080
