@@ -2,8 +2,7 @@
 
 ## Description
 
-This is simple ATM implementation based on Spring (Security, Data, Web, Boot), 
-MariaDB, FlyWay. Test base on Spring Test + Junit
+This is simple ATM implementation based on Spring (Security, Data, Web, Boot), MariaDB, FlyWay. Tests base on Spring Test + Junit
 
 ## MariaDB configuration
 
@@ -15,6 +14,4 @@ MariaDB, FlyWay. Test base on Spring Test + Junit
 
 4. Apply changes ```FLUSH PRIVILEGES;```
 
-5. Check user access to the database ```SHOW GRANTS FOR 'quizuser';```
-
-The same actions for test database
+5. Check user access to the database ```SHOW GRANTS FOR 'atmuser';```
